@@ -55,7 +55,7 @@ fig = plt.figure()
 
 plt.subplot(2, 1, 2)
 
-plt.title("DEATH VALLEY, CA US", fontsize=12)
+plt.title(name2[1])
 plt.xlabel("", fontsize=12)
 plt.ylabel("", fontsize=12)
 plt.tick_params(axis="both", which="major", labelsize=12)
@@ -108,7 +108,7 @@ for row in csv_file1:
 print(highs)
 print(dates)
 
-plt.title("SITKA AIRPORT, AK US", fontsize=12)
+plt.title(name1[1])
 plt.xlabel("", fontsize=12)
 plt.ylabel("", fontsize=12)
 plt.tick_params(axis="both", which="major", labelsize=12)
